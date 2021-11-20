@@ -87,6 +87,14 @@
 		font-size: 20px;
 	}
 
+	.footer p {
+		font-size: 15px;
+	}
+
+	.arrow{
+		text-align: center;
+	}
+
 }
 
 @media (min-width: 768px){
@@ -176,5 +184,9 @@
 
 	.parent-button-container {
 		width: auto;
+	}
+
+	.arrow{
+		text-align: right;
 	}
 }
