@@ -10,15 +10,16 @@
 	font-family: 'Montserrat', 'Secular One', 'Montserrat', sans-serif;
 }
 
-.hero {
+/* .hero {
 
 	background-image: url("https://mocah.org/uploads/posts/129323-cute-boy-santa-boy-costume-hd.jpg");
+	
 	
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
+} */
 
 .cont {
 	min-height: 95vh;
