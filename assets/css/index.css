@@ -22,7 +22,7 @@
 } */
 
 .cont {
-	min-height: 100vh;
+	min-height: 95vh;
 }
 
 .icon{
@@ -162,6 +162,10 @@
 		font-size: 70px;
 	}
 
+	.cont {
+		min-height: 100vh;
+	}
+
 
 }
 
@@ -200,5 +204,9 @@
 
 	.arrow{
 		text-align: right;
+	}
+
+	.cont {
+		min-height: 100vh;
 	}
 }
