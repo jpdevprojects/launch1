@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', 'Secular One', 'Montserrat', sans-serif;
+}
+
+.hero {
+
+	background-image: url("https://mocah.org/uploads/posts/129323-cute-boy-santa-boy-costume-hd.jpg");
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.cont {
+	min-height: 95vh;
+}
+
+.icon{
+	display: inline;
+}
+
+
+@media (min-width: 320px){
+	/*hero*/
+	.greeting{
+		font-family: 'Secular One';
+		font-size: 30px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.greeting-2 {
+		font-family: 'Montserrat',  sans-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.greeting-3 {
+		font-size: 17px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.hero{
+		padding-top: 100px;
+	}
+
+	/*connect wit us*/
+	.connect{
+		padding-top: 30px;
+	}
+	.button {
+		margin: 40px;
+	}
+
+	.parent-button-container{
+		text-align: center;
+	}
+
+	.about {
+		padding-top: 30px;
+	}
+
+	/*about*/
+	.about{
+		font-family: 'Secular One';
+		font-size: 30px;
+		margin-bottom: 20px;
+
+	}
+
+	.about p {
+		font-size: 20px;
+	}
+
+	/*roadmap*/
+	ul li{
+		font-size: 20px;
+	}
+
+}
+
+@media (min-width: 768px){
+
+	.contt{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.greeting{
+		font-family: 'Secular One';
+		font-size: 50px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.greeting-2 {
+		font-family: 'Montserrat',  sans-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.greeting-3 {
+		font-size: 17px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	span{
+		color: red;
+	}
+
+	.footer{
+		text-align: center;
+	}
+
+	/*.arrow-icon{
+		display: flex;
+		justify-content: flex-end;
+	}
+*/
+}
+
+@media (min-width: 992px){
+	.contt{
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	.greeting {
+		font-family: 'Secular One';
+		font-size: 100px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+
+}
+
+@media (min-width: 1200px){
+	.hero{
+		padding-top: 120px;
+	}
+	.contt{
+		margin-left: 300px;
+		margin-right: 300px;
+	}
+
+	.greeting{
+		font-family: 'Secular One';
+		font-size: 35px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.greeting-2 {
+		font-family: 'Montserrat',  sans-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.greeting-3 {
+		font-size: 17px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.parent-button-container {
+		width: auto;
+	}
+}
