@@ -97,6 +97,14 @@
 		text-align: center;
 	}
 
+	.CA{
+		width: 200px;
+	}
+
+	.input{
+		margin: 20px 0;
+	}
+
 }
 
 @media (min-width: 768px){
