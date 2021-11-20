@@ -1,10 +1,10 @@
 .hero {
 
-	background-image: url("boy.jpg");
+	background-image: url("boy.png");
 	
-	/* background-position: center; */
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 60%;
-    background-position-x: center;
+    
 }
